@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Variables2();
+        Variables2_1();
     }
-    public static void Variables2() {
+    public static void Variables2_1() {
         byte yorkshireTerrier = 120;
         System.out.println("Значение переменной yorkshireTerrier с типом byte равно "+ yorkshireTerrier);
         short frenchBulldog = -30000;
