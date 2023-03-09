@@ -59,6 +59,17 @@ public class Main {
         System.out.println("В школе, где " + numberClasses + " классов, нужно " + white + " банок белой краски и " + brown + " банок коричневой краски");
     }
     public static void Variables2_6() {
-
+        byte bananasNumber = 5;
+        byte bananaMassGram = 80;
+        byte milkAmount = 2;
+        short milkMassGram = 105;
+        byte iceCreamAmount = 2;
+        byte iceCreamMassGram = 100;
+        byte eggNumber = 4;
+        byte eggMassGram = 70;
+        int breakfastMassGram = bananasNumber * bananaMassGram + milkAmount * milkMassGram + iceCreamAmount * iceCreamMassGram + eggNumber * eggMassGram;
+        System.out.println("Вес спортзавтрака в граммах равен " + breakfastMassGram);
+        float breakfastMassKilogram = (float) breakfastMassGram / 1000;
+        System.out.println("Вес спортзавтрака в килограммах равен " + breakfastMassKilogram);
     }
 }
