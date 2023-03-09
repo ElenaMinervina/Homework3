@@ -4,6 +4,7 @@ public class Main {
         Variables2_2();
         Variables2_3();
         Variables2_4();
+        Variables2_5();
     }
     public static void Variables2_1() {
         byte yorkshireTerrier = 120;
@@ -47,5 +48,13 @@ public class Main {
         int quantityMonth  = quantityDay * 30;
         System.out.println("За месяц машина произвела " + quantityMonth + " бутылок");
     }
-
+    public static void Variables2_5() {
+        byte whiteAndBrown = 120;
+        byte oneClassWhite = 2;
+        byte oneClassBrown = 4;
+        int quantityClasses = whiteAndBrown / (oneClassWhite + oneClassBrown);
+        int white = quantityClasses * oneClassWhite;
+        int brown = quantityClasses * oneClassBrown;
+        System.out.println("В школе, где " + quantityClasses + " классов, нужно " + white + " банок белой краски и " + brown + " банок коричневой краски");
+    }
 }
