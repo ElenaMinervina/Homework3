@@ -7,6 +7,7 @@ public class Main {
         Variables2_5();
         Variables2_6();
         Variables2_7();
+        Variables2_8();
     }
     public static void Variables2_1() {
         byte yorkshireTerrier = 120;
@@ -84,5 +85,21 @@ public class Main {
         System.out.println("При потере веса " + diet2G + "г в день спортсмен похудеет за " + daysDiet2 + " дней");
         int daysAverage = (daysDiet1 + daysDiet2) / 2;
         System.out.println("В среднем для похудения на " + weightKg + "кг потребуется " + daysAverage + " день");
+    }
+    public static void Variables2_8() {
+        int mashaSalary = 67760;
+        int denisSalary = 83690;
+        int kristinaSalary = 76230;
+        float percentageSalaryIncrease = 0.1f;
+        float mashaSalaryIncrease = mashaSalary * (1 + percentageSalaryIncrease);
+        float denisSalaryIncrease = denisSalary * (1 + percentageSalaryIncrease);
+        float kristinaSalaryIncrease = kristinaSalary * (1+ percentageSalaryIncrease);
+        int monthQuantity = 12;
+        float mashaYearIncrease = (mashaSalaryIncrease - mashaSalary) * monthQuantity;
+        float denisYearIncrease = (denisSalaryIncrease - denisSalary) * monthQuantity;
+        float kristinaYearIncrease = (kristinaSalaryIncrease - kristinaSalary) * monthQuantity;
+        System.out.println("Маша теперь получает " + mashaSalaryIncrease + " рублей. Годовой доход вырос на " + mashaYearIncrease + " рублей");
+        System.out.println("Денис теперь получает " + denisSalaryIncrease + " рублей. Годовой доход вырос на " + denisYearIncrease + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaSalaryIncrease + " рублей. Годовой доход вырос на " + kristinaYearIncrease + " рублей");
     }
 }
