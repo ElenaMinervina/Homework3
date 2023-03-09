@@ -18,6 +18,10 @@ public class Main {
         System.out.println("Значение переменной spaniel с типом int равно "+ spaniel);
         long dachshund = 1234567891234567890L;
         System.out.println("Значение переменной dachshund с типом long равно "+ dachshund);
+        float a = 0.1f;
+        System.out.println("Значение переменной a с типом long равно "+ a);
+        double b = 45612.123456789;
+        System.out.println("Значение переменной b с типом double равно "+ b);
     }
     public static void Variables2_2() {
         float a = 27.2f;
