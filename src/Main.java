@@ -35,7 +35,17 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + eachStudentSheets + " листов бумаги");
     }
     public static void Variables2_4() {
-
+        byte time = 2;
+        byte quantityInTime = 16;
+        int speedInMinute = quantityInTime / time;
+        int quantity20 = speedInMinute * 20;
+        System.out.println("За 20 минут машина произвела " + quantity20 + " бутылок");
+        int quantityDay = speedInMinute * 60 * 24;
+        System.out.println("За сутки машина произвела " + quantityDay + " бутылок");
+        int quantity3Days = quantityDay * 3;
+        System.out.println("За 3 дня машина произвела " + quantity3Days + " бутылок");
+        int quantityMonth  = quantityDay * 30;
+        System.out.println("За месяц машина произвела " + quantityMonth + " бутылок");
     }
 
 }
