@@ -6,6 +6,7 @@ public class Main {
         Variables2_4();
         Variables2_5();
         Variables2_6();
+        Variables2_7();
     }
     public static void Variables2_1() {
         byte yorkshireTerrier = 120;
@@ -71,5 +72,17 @@ public class Main {
         System.out.println("Вес спортзавтрака в граммах равен " + breakfastMassGram);
         float breakfastMassKilogram = (float) breakfastMassGram / 1000;
         System.out.println("Вес спортзавтрака в килограммах равен " + breakfastMassKilogram);
+    }
+    public static void Variables2_7() {
+        byte weightKg = 7;
+        short diet1G = 250;
+        short diet2G = 500;
+        int weightG = weightKg * 1000;
+        int daysDiet1 = weightG / diet1G;
+        int daysDiet2 = weightG / diet2G;
+        System.out.println("При потере веса " + diet1G + "г в день спортсмен похудеет за " + daysDiet1 + " дней");
+        System.out.println("При потере веса " + diet2G + "г в день спортсмен похудеет за " + daysDiet2 + " дней");
+        int daysAverage = (daysDiet1 + daysDiet2) / 2;
+        System.out.println("В среднем для похудения на " + weightKg + "кг потребуется " + daysAverage + " день");
     }
 }
