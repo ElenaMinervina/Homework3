@@ -10,6 +10,7 @@ public class Main {
         Variables2_8();
     }
     public static void Variables2_1() {
+        System.out.println("Задание 1");
         byte yorkshireTerrier = 120;
         System.out.println("Значение переменной yorkshireTerrier с типом byte равно "+ yorkshireTerrier);
         short frenchBulldog = -30000;
@@ -24,6 +25,7 @@ public class Main {
         System.out.println("Значение переменной b с типом double равно "+ b);
     }
     public static void Variables2_2() {
+        System.out.println("Задание 2");
         float a = 27.2f;
         long b = 987678965549L;
         float c = 2.786f;
@@ -35,6 +37,7 @@ public class Main {
         System.out.println(h);
     }
     public static void Variables2_3() {
+        System.out.println("Задание 3");
         byte ludmilaPavlovnasStudents = 23;
         byte annaSergeevnasStudents = 27;
         byte ekaterinaAndreevnasStudents = 30;
@@ -43,6 +46,7 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + eachStudentSheets + " листов бумаги");
     }
     public static void Variables2_4() {
+        System.out.println("Задание 4");
         byte time = 2;
         byte numberInTime = 16;
         int speedInMinute = numberInTime / time;
@@ -56,6 +60,7 @@ public class Main {
         System.out.println("За месяц машина произвела " + numberMonth + " бутылок");
     }
     public static void Variables2_5() {
+        System.out.println("Задание 5");
         byte whiteAndBrown = 120;
         byte oneClassWhite = 2;
         byte oneClassBrown = 4;
@@ -65,6 +70,7 @@ public class Main {
         System.out.println("В школе, где " + numberClasses + " классов, нужно " + white + " банок белой краски и " + brown + " банок коричневой краски");
     }
     public static void Variables2_6() {
+        System.out.println("Задание 6");
         byte bananasNumber = 5;
         byte bananaMassGram = 80;
         byte milkAmount = 2;
@@ -79,6 +85,7 @@ public class Main {
         System.out.println("Вес спортзавтрака в килограммах равен " + breakfastMassKilogram);
     }
     public static void Variables2_7() {
+        System.out.println("Задание 7");
         byte weightKg = 7;
         short diet1G = 250;
         short diet2G = 500;
@@ -91,6 +98,7 @@ public class Main {
         System.out.println("В среднем для похудения на " + weightKg + "кг потребуется " + daysAverage + " день");
     }
     public static void Variables2_8() {
+        System.out.println("Задание 8");
         int mashaSalary = 67760;
         int denisSalary = 83690;
         int kristinaSalary = 76230;
